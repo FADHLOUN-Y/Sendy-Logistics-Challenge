@@ -10,7 +10,7 @@ And this is a description of our solution which reached the score of **702.42897
 
 **Final model** :
 For this regression task, our final model was an ensemble of 4 types of blended models with weights. 
-We used multiple XGBoost models that were bagged using Sklearn's BaggingRegressor and their results were averaged, A number of bagged LightGBM models using BaggingRegressor, a single CatBoost model , and a sklearn's GradientBoostingRegressor. All these models were making predictions over a 20-fold cross validation scheme. The blending weights were chosen following the best performance on the leaderboard.
+We used multiple XGBoost models that were bagged using Sklearn's BaggingRegressor and their results were averaged, A number of bagged LightGBM models using BaggingRegressor, a single CatBoost model , and a sklearn's GradientBoostingRegressor. All these models were making predictions over a 10-fold cross validation scheme. The blending weights were chosen following the best performance on the leaderboard.
 
 ### Features : 
 
